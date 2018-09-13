@@ -28,6 +28,7 @@ public class IndexController {
         if (!StringUtils.isEmpty(userUser)) {
             return userUser.getMobileNumber();
         }
+        System.out.println("");
         return "to java";
     }
 
