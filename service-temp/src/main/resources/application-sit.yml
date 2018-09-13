@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.97.185.42:3306/ccjt?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true
+    username: yaoqianguan_app
+    password: yqg!123321
+server:
+  port: 8081
+mongo:
+    repleSet: 118.31.79.92:27017,
+    username:
+    password:
+    dbName: share
+jedis:
+    pool:
+        host: 118.31.79.92
+        port: 6379
+        database: 1
+        password: 51cash
+        timeout: 3000
+        config:
+            maxTotal: 500
+            maxIdle: 10
+            minIdle: 0
+            maxWaitMillis: 100000
